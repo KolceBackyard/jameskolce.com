@@ -1,0 +1,14 @@
+.anchorjs-link {
+  font-family: --font-primary;
+}
+
+p, h1, h2, h3 {
+  &:hover .anchorjs-link {
+    opacity: 0.2;
+
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+  }
+}

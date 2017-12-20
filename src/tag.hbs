@@ -1,0 +1,32 @@
+{{!< default}}
+
+<nav class="main-header">
+  <a href="{{@blog.url}}" class="logo">{{@blog.title}}</a>
+</nav>
+
+<header class="post-header">
+  <h1 class="heading">{{tag.name}}</h1>
+
+  {{#if tag.description}}
+    <p class="description">{{tag.description}}</p>
+  {{/if}}
+</header>
+
+<main role="main" grid class="_m0">
+  <nav column="4" class="tag-index">
+    <h3 class="heading">Categories</h3>
+    <ul class="list">
+      {{#get "tags" limit="all"}}
+        {{#foreach tags}}
+          <li><a href="{{url absolute="true"}}" title="{{name}}">{{name}}</a></li>
+        {{/foreach}}
+      {{/get}}
+    </ul>
+  </nav>
+
+  <section class="_m0" column="8">
+    {{> loop}}
+  </section>
+</main>
+
+{{pagination}}

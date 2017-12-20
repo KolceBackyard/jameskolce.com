@@ -1,0 +1,21 @@
+.tag-index {
+  margin-top: --spacing-s;
+  font-size: 1;
+  font-family: --font-ui;
+
+  .heading {
+    margin-top: 0;
+    border-bottom: 1px solid --color-base-lines;
+    padding-bottom: 0.25lh;
+    margin-bottom: 0;
+  }
+
+  .list {
+    margin-top: 0;
+
+    li {
+      border-bottom: 1px solid --color-base-lines;
+      padding: 0.25lh 0;
+    }
+  }
+}

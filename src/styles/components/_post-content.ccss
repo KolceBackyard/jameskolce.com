@@ -1,0 +1,12 @@
+.post-content {
+  p:first-of-type {
+    font-family: --font-ui;
+    font-size: 3;
+    margin-bottom: 1lh;
+    line-height: 1.4;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}

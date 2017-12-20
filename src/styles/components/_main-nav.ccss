@@ -1,0 +1,7 @@
+.main-nav {
+  margin-top: 0.5lh;
+
+  .link {
+    letter-spacing: 0;
+  }
+}

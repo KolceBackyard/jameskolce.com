@@ -1,0 +1,16 @@
+{{#foreach posts}}
+  <article class="{{post_class}} -excerpt">
+    <header class="post-header">
+      <h2 class="heading"><a href="{{url}}">{{title}}</a></h2>
+
+      <section class="post-meta">
+        <span class="tags">{{tags suffix=" · "}}</span>
+        <time class="date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM DD, YYYY"}}</time>
+      </section>
+    </header>
+
+    <section class="post-excerpt hyphenate">
+      <p>{{excerpt characters="320"}}<a href="{{url}}">&hellip;</a></p>
+    </section>
+  </article>
+{{/foreach}}

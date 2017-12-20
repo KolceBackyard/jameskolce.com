@@ -1,0 +1,19 @@
+.post-meta {
+  margin-top: 0 ?if media (--breakpoint);
+
+  .tags {
+    a {
+      letter-spacing: --tracking;
+      text-transform: lowercase;
+      font-family: --font-smallcaps;
+    }
+  }
+
+  .date {
+    display: block;
+    display: inline ?if media (--breakpoint);
+    margin-top: 0;
+    font-family: --font-secondary;
+    font-style: italic;
+  }
+}

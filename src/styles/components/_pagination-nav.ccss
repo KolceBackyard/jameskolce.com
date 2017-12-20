@@ -1,0 +1,9 @@
+.pagination-nav {
+  text-align: center;
+  margin-top: --spacing-l;
+  font-style: italic;
+
+  .next { margin-left: 2em; }
+
+  .previous { margin-right: 2em; }
+}
