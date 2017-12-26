@@ -1,7 +1,7 @@
 .post-content {
   p:first-of-type {
     font-family: --font-ui;
-    margin-bottom: 2lh;
+    margin-bottom: 1lh;
     color: --color-text-secondary;
   }
 

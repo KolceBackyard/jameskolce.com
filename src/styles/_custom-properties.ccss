@@ -42,7 +42,7 @@
   --spacing-xl: 4lh;
 
   // Color palette
-  --color-base-primary: #bd925e;
+  --color-base-primary: #AA4041;
   --color-base-selection: #ebe1d3;
   --color-base-lines: #dcdcdc;
 

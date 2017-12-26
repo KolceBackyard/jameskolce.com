@@ -1,5 +1,5 @@
 .tag-index {
-  margin-top: --spacing-s;
+  margin-top: 0;
   font-size: 1;
   font-family: --font-ui;
 

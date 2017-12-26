@@ -3,4 +3,8 @@
   font-family: --font-smallcaps;
   margin-top: --spacing-l;
   margin-bottom: --spacing-m;
+
+  a {
+    font-family: --font-primary;
+  }
 }

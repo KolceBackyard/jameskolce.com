@@ -1,12 +1,11 @@
 .-excerpt {
   border-top: 0.25em solid --color-text-heading;
-  margin-top: 2lh;
+  margin-top: 1.5lh;
+  padding-top: 0.25lh;
 
-  &:first-child {
-    margin-top: 0;
-  }
+  .post-header,
+  .heading,
+  &:first-child { margin-top: 0; }
 
-  .post-header { margin-top: 0; }
-
-  .heading { margin-top: 0; }
+  .post-meta { margin-top: 0.25lh; }
 }
