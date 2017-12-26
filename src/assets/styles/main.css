@@ -679,7 +679,6 @@ p:hover .anchorjs-link:hover,
     h3:hover .anchorjs-link:focus {
       opacity: 1;
     }
-.main-nav ul { margin: 0; }
 .main-nav .link { letter-spacing: 0; }
 .dropcap {
   float: left;

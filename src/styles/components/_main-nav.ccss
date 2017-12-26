@@ -1,5 +1,4 @@
 .main-nav {
-  ul { margin: 0; }
 
   .link { letter-spacing: 0; }
 }
