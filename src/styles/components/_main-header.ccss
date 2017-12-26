@@ -6,7 +6,8 @@
   .logo {
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    font-size: 1;
+    font-size: 2;
+    font-family: --font-smallcaps;
 
     &.-home {
       font-size: 8;

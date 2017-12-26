@@ -1,5 +1,7 @@
 .post-meta {
   margin-top: 0 ?if media (--breakpoint);
+  font-size: 1;
+  font-weight: bold;
 
   .tags {
     a {
@@ -13,7 +15,5 @@
     display: block;
     display: inline ?if media (--breakpoint);
     margin-top: 0;
-    font-family: --font-secondary;
-    font-style: italic;
   }
 }

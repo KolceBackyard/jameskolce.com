@@ -7,16 +7,6 @@
     margin-bottom: --spacing-s;
     text-align: left;
     margin-top: --spacing-m;
-
-    .heading {
-      font-size: 5;
-      margin: 0;
-    }
-  }
-
-  .heading {
-    font-size: 8;
-    font-size: 10 ?if media (--breakpoint);
   }
 
   .description {

@@ -18,8 +18,8 @@
   background-color: --color-background-body;
   color: --color-text-primary;
   font-size: --font-size;
-  text-rendering: optimizeLegibility;
   font-size: --font-size-large ?if media (--small);
+  text-rendering: optimizeLegibility;
   border-top: 0.5em solid --color-text-heading;
 }
 
@@ -82,7 +82,7 @@ p a {
   margin-left: -0.1em;
   margin-right: -0.1em;
 
-  &[href*="//"]:not([href*="brain.jameskolce.com"]):after {
+  &[href*="//"]:not([href*="jameskolce.com"]):after {
     content: "°";
     color: ---color-base-primary;
     font-size: 0.9em;
@@ -108,10 +108,10 @@ textarea,
   touch-action: manipulation;
 }
 
-h1 { font-size: 7; }
-h2 { font-size: 4; }
+h1 { font-size: 8; }
+h2 { font-size: 5; }
 h3 {
-  font-size: 1;
+  font-size: 3;
   text-transform: uppercase;
   letter-spacing: --tracking;
 }
@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3 {
-  margin: 1.5lh 0 0.3lh;
+  margin: 1.5lh 0 0;
 
   a {
     color: inherit;
@@ -163,18 +163,19 @@ code {
 }
 
 pre {
-  border-left: 0;
-  border-right: 0;
-  padding-left: 0;
-  padding-right: 0;
+  border: 0;
+  padding: 0;
   border-top: 1px solid --color-base-lines;
   border-bottom: 1px solid --color-base-lines;
   background-color: transparent;
 }
 
 pre code {
+  padding: 1lh 0;
+  font-size: 1;
   white-space: pre;
   background-color: transparent;
+  display: block;
 }
 
 abbr[title] {

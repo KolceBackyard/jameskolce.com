@@ -1,8 +1,12 @@
 .-excerpt {
-  &:not(:first-child) {
-    border-top: 1px solid --color-base-lines;
-    padding-top: 1lh;
+  border-top: 0.25em solid --color-text-heading;
+  margin-top: 2lh;
+
+  &:first-child {
+    margin-top: 0;
   }
 
   .post-header { margin-top: 0; }
+
+  .heading { margin-top: 0; }
 }

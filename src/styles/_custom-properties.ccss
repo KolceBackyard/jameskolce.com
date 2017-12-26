@@ -20,13 +20,13 @@
   --tracking: 0.05em;
 
   // Type scale ratio
-  --type-ratio: 1.125;
+  --type-ratio: 1.333;
 
   // Font families
-  --font-primary: "lemonde-courrier", serif;
-  --font-secondary: "le-monde-livre-classic-byol", serif;
-  --font-smallcaps: "le-monde-livre-classic-sc", serif;
-  --font-ui: "lemonde-sans", sans-serif;
+  --font-primary: "Whitney SSm A", "Whitney SSm B", sans-serif;
+  --font-secondary: "Peristyle A", "Peristyle B", serif;
+  --font-smallcaps: "Whitney SSm Small Caps A", "Whitney SSm Small Caps B", sans-serif;
+  --font-ui: "Whitney SSm A", "Whitney SSm B", sans-serif;
   --font-mono: "Fira Code", monospace;
   --font-print-primary: "lemonde-courrier", serif;
   --font-print-secondary: "le-monde-livre-classic-byol", serif;
@@ -47,9 +47,9 @@
   --color-base-lines: #dcdcdc;
 
   --color-text-primary: #222;
-  --color-text-secondary: #444;
+  --color-text-secondary: #666;
   --color-text-tertiary: #eee;
-  --color-text-heading: #1a1a1a;
+  --color-text-heading: #AA4041;
   --color-text-inverted: white;
 
   --color-background-dark: #32373d;
