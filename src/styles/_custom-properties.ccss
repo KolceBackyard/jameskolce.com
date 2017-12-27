@@ -11,7 +11,7 @@
 
 :root {
   // Font size for small devices
-  --font-size: 18px;
+  --font-size: 17px;
 
   // Font size for large devices
   --font-size-large: 22px;

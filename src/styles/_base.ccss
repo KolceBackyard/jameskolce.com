@@ -108,7 +108,10 @@ textarea,
   touch-action: manipulation;
 }
 
-h1 { font-size: 8; }
+h1 {
+  font-size: 6;
+  font-size: 8 ?if media (--medium);
+}
 h2 { font-size: 5; }
 h3 {
   font-size: 3;

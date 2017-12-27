@@ -1,5 +1,5 @@
 :root {
-  --font-size: 18px;
+  --font-size: 17px;
   --font-size-large: 22px;
   --tracking: 0.05em;
   --type-ratio: 1.333;
@@ -155,7 +155,14 @@ textarea,
   -ms-touch-action: manipulation;
   touch-action: manipulation;
 }
-h1 { font-size: 5.6102rem; }
+h1 {
+  font-size: 3.1573rem;
+}
+@media (min-width: 768px){
+  h1{
+  font-size: 5.6102rem;
+  }
+}
 h2 { font-size: 2.3686rem; }
 h3 {
   font-size: 1.333rem;
@@ -523,6 +530,7 @@ abbr[title] {
   }
 .post-content img {
     max-width: 100%;
+    margin: 1.5rem 0;
   }
 .main-header {
   text-align: center;
@@ -573,6 +581,7 @@ abbr[title] {
   .-excerpt:first-child { margin-top: 0; }
 .-excerpt .post-meta { margin-top: 0.375rem; }
 .post-meta {
+  margin-top: 1.5rem;
   font-size: 0.7502rem;
   font-weight: bold;
 }
@@ -588,11 +597,6 @@ abbr[title] {
 @media (min-width: 768px){
   .post-meta .date{
     display: inline;
-  }
-}
-@media (min-width: 768px){
-  .post-meta{
-  margin-top: 1.5rem;
   }
 }
 .margin-note {
@@ -645,6 +649,7 @@ label.margin-toggle {
 }
 .tag-index {
   margin-top: 0;
+  margin-bottom: 3rem;
   font-size: 0.7502rem;
   font-family: var(--font-ui);
 }
