@@ -1,9 +1,10 @@
 .post-meta {
-  margin-top: 1lh;
+  margin-top: 0.5lh;
   font-size: 1;
-  font-weight: bold;
 
   .tags {
+    font-weight: bold;
+
     a {
       letter-spacing: --tracking;
       text-transform: lowercase;

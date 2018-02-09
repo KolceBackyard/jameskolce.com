@@ -110,9 +110,9 @@ textarea,
 
 h1 {
   font-size: 6;
-  font-size: 8 ?if media (--medium);
+  font-size: 12 ?if media (--medium);
 }
-h2 { font-size: 5; }
+h2 { font-size: 6; }
 h3 {
   font-size: 3;
   text-transform: uppercase;
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3 {
-  margin: 1.5lh 0 0;
+  margin: 1lh 0 0;
   line-height: 1;
 
   a {
@@ -186,4 +186,9 @@ abbr[title] {
   text-decoration: none;
   border-bottom: 1px dotted --color-base-lines;
   cursor: help;
+}
+
+blockquote p {
+  font-style: italic;
+  color: --color-text-secondary;
 }

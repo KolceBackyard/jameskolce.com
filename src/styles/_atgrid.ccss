@@ -10,7 +10,7 @@
 
 :root {
   /* Max width for container */
-  --ag-container-width: 1200px;
+  --ag-container-width: 900px;
   /* Gutter size */
   --ag-gutter: 2rem;
 }

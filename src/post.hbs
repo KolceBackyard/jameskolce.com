@@ -10,13 +10,14 @@
       <h1 class="heading">{{title}}</h1>
 
       <section class="post-meta">
-        <span class="tags">{{tags suffix=" · "}}</span>
         <time class="date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM DD, YYYY"}}</time>
+        <span>—</span>
+        <span class="tags">{{tags}}</span>
       </section>
     </header>
 
     <section class="post-content hyphenate" grid>
-      <div column="8 +2">
+      <div column="9 +3">
         {{content}}
       </div>
     </section>

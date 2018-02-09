@@ -1,5 +1,5 @@
 .-excerpt {
-  border-top: 0.25em solid --color-text-heading;
+  border-top: 0.2em solid --color-text-heading;
   margin-top: 1.5lh;
   padding-top: 0.25lh;
 
@@ -8,4 +8,6 @@
   &:first-child { margin-top: 0; }
 
   .post-meta { margin-top: 0.25lh; }
+
+  h2 { font-size: 9 }
 }

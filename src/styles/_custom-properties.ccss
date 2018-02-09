@@ -14,13 +14,13 @@
   --font-size: 17px;
 
   // Font size for large devices
-  --font-size-large: 22px;
+  --font-size-large: 21px;
 
   // Space between characters
   --tracking: 0.05em;
 
   // Type scale ratio
-  --type-ratio: 1.333;
+  --type-ratio: 1.125;
 
   // Font families
   --font-primary: "Whitney SSm A", "Whitney SSm B", sans-serif;
@@ -38,7 +38,7 @@
   --spacing-xs: 0.5lh;
   --spacing-s: 1lh;
   --spacing-m: 2lh;
-  --spacing-l: 3lh;
+  --spacing-l: 2lh;
   --spacing-xl: 4lh;
 
   // Color palette
