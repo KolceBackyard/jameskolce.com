@@ -706,7 +706,7 @@ p:hover .anchorjs-link:hover,
   }
 .main-nav li:not(:last-child):after {
       content: "·";
-      margin: 0 0.5em;
+      margin: 0 0.5em 0 0.7em;
     }
 .dropcap {
   float: left;
