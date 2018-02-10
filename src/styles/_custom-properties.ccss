@@ -42,14 +42,14 @@
   --spacing-xl: 4lh;
 
   // Color palette
-  --color-base-primary: #AA4041;
+  --color-base-primary: #8f58c3;
   --color-base-selection: #ebe1d3;
   --color-base-lines: #dcdcdc;
 
   --color-text-primary: #222;
   --color-text-secondary: #666;
   --color-text-tertiary: #eee;
-  --color-text-heading: #AA4041;
+  --color-text-heading: #674A82;
   --color-text-inverted: white;
 
   --color-background-dark: #32373d;

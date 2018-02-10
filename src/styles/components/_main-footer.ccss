@@ -1,8 +1,8 @@
 .main-footer {
-  text-align: center;
   font-family: --font-smallcaps;
   margin-top: --spacing-l;
   margin-bottom: --spacing-m;
+  text-align: center;
 
   a {
     font-family: --font-primary;

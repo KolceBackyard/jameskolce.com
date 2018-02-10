@@ -4,7 +4,7 @@
     "name": "James Kolce",
     "email": "contact@jameskolce.com"
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "start": "concise compile -w styles/main.ccss assets/styles/main.css",

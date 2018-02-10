@@ -4,13 +4,14 @@
       <h2 class="heading"><a href="{{url}}">{{title}}</a></h2>
 
       <section class="post-meta">
-        <span class="tags">{{tags suffix=" · "}}</span>
         <time class="date" datetime="{{date format='YYYY-MM-DD'}}">{{date format="MMMM DD, YYYY"}}</time>
+        <span>—</span>
+        <span class="tags">{{tags}}</span>
       </section>
     </header>
 
-    <section class="post-excerpt hyphenate">
-      <p>{{excerpt characters="320"}}<a href="{{url}}">&hellip;</a></p>
+    <section class="post-excerpt">
+      <p>{{excerpt}}</p>
     </section>
   </article>
 {{/foreach}}

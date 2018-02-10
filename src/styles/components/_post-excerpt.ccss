@@ -8,6 +8,4 @@
   &:first-child { margin-top: 0; }
 
   .post-meta { margin-top: 0.25lh; }
-
-  h2 { font-size: 9 }
 }

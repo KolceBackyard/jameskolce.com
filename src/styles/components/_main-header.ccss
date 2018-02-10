@@ -1,21 +1,28 @@
 .main-header {
   text-align: center;
-  margin-top: --spacing-l;
-  margin-bottom: -0.5lh;
+  margin: --spacing-l 0;
+
+  &.-home {
+    margin: --spacing-xl 0;
+
+    .logo {
+      font-size: 14;
+      font-size: 16 ?if media (--breakpoint);
+      font-family: --font-secondary;
+      font-weight: normal;
+    }
+  }
 
   .logo {
     letter-spacing: 0.05em;
     text-transform: uppercase;
     font-size: 2;
     font-family: --font-smallcaps;
+    color: --color-text-primary;
+  }
 
-    &.-home {
-      font-size: 8;
-      font-size: 10 ?if media (--breakpoint);
-      font-family: --font-secondary;
-      letter-spacing: 0;
-      text-transform: none;
-      font-weight: bold;
-    }
+  a.logo:hover,
+  a.logo:focus {
+    color: --color-base-primary;
   }
 }

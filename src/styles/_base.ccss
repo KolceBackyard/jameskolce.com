@@ -110,9 +110,9 @@ textarea,
 
 h1 {
   font-size: 6;
-  font-size: 12 ?if media (--medium);
+  font-size: 14 ?if media (--medium);
 }
-h2 { font-size: 6; }
+h2 { font-size: 8; }
 h3 {
   font-size: 3;
   text-transform: uppercase;
