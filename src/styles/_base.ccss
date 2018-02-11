@@ -109,7 +109,7 @@ textarea,
 }
 
 h1 {
-  font-size: 6;
+  font-size: 12;
   font-size: 14 ?if media (--medium);
 }
 h2 { font-size: 8; }
@@ -186,6 +186,10 @@ abbr[title] {
   text-decoration: none;
   border-bottom: 1px dotted --color-base-lines;
   cursor: help;
+}
+
+blockquote {
+  margin: 0 1em;
 }
 
 blockquote p {

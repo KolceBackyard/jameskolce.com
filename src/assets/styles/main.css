@@ -1,5 +1,5 @@
 :root {
-  --font-size: 17px;
+  --font-size: 16px;
   --font-size-large: 21px;
   --tracking: 0.05em;
   --type-ratio: 1.125;
@@ -15,7 +15,7 @@
   --spacing-s: 1.5rem;
   --spacing-m: 3rem;
   --spacing-l: 3rem;
-  --spacing-xl: 6rem;
+  --spacing-xl: 4.5rem;
   --color-base-primary: #8f58c3;
   --color-base-selection: #ebe1d3;
   --color-base-lines: #dcdcdc;
@@ -156,7 +156,7 @@ textarea,
   touch-action: manipulation;
 }
 h1 {
-  font-size: 1.6018rem;
+  font-size: 3.2473rem;
 }
 @media (min-width: 768px){
   h1{
@@ -228,6 +228,9 @@ abbr[title] {
   text-decoration: none;
   border-bottom: 1px dotted var(--color-base-lines);
   cursor: help;
+}
+blockquote {
+  margin: 0 1em;
 }
 blockquote p {
   font-style: italic;
@@ -560,18 +563,26 @@ blockquote p {
     font-family: var(--font-smallcaps);
     color: var(--color-text-primary);
   }
+.main-header .description {
+    margin-bottom: 6rem;
+  }
 .main-header a.logo:hover,
   .main-header a.logo:focus {
     color: var(--color-base-primary);
   }
 .main-footer {
   font-family: var(--font-smallcaps);
-  margin-top: var(--spacing-l);
-  margin-bottom: var(--spacing-m);
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-s);
   text-align: center;
+  border-top: 1px solid var(--color-base-lines);
+  font-size: 0.8889rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 .main-footer a {
     font-family: var(--font-primary);
+    letter-spacing: inherit;
   }
 .pagination-nav {
   text-align: center;
@@ -685,7 +696,7 @@ label.margin-toggle {
 }
 p:hover .anchorjs-link, h1:hover .anchorjs-link, h2:hover .anchorjs-link, h3:hover .anchorjs-link {
     opacity: 0.2;
-    color: var(--color-text-secondary);
+    color: var(--color-text-heading);
   }
 p:hover .anchorjs-link:hover,
     p:hover .anchorjs-link:focus,

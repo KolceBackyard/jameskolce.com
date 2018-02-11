@@ -1,10 +1,15 @@
 .main-footer {
   font-family: --font-smallcaps;
-  margin-top: --spacing-l;
-  margin-bottom: --spacing-m;
+  margin-top: --spacing-xl;
+  margin-bottom: --spacing-s;
   text-align: center;
+  border-top: 1px solid --color-base-lines;
+  font-size: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 
   a {
     font-family: --font-primary;
+    letter-spacing: inherit;
   }
 }

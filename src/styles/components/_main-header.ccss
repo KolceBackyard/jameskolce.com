@@ -21,6 +21,10 @@
     color: --color-text-primary;
   }
 
+  .description {
+    margin-bottom: 4lh;
+  }
+
   a.logo:hover,
   a.logo:focus {
     color: --color-base-primary;

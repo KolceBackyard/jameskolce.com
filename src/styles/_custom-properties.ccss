@@ -11,7 +11,7 @@
 
 :root {
   // Font size for small devices
-  --font-size: 17px;
+  --font-size: 16px;
 
   // Font size for large devices
   --font-size-large: 21px;
@@ -39,7 +39,7 @@
   --spacing-s: 1lh;
   --spacing-m: 2lh;
   --spacing-l: 2lh;
-  --spacing-xl: 4lh;
+  --spacing-xl: 3lh;
 
   // Color palette
   --color-base-primary: #8f58c3;
