@@ -1,0 +1,23 @@
+{
+  "name": "jameskolce.com",
+  "version": "0.1.0",
+  "description": "Personal website of James Kolce",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "run-p pug:watch http livereload",
+    "build": "npm run pug",
+    "pug": "pug src/views --out dist/ --obj src/views/data.json --pretty",
+    "pug:watch": "pug src/views --out dist/ -w --obj src/views/data.json --pretty",
+    "livereload": "livereload dist/ -e 'js, html, css'",
+    "http": "http-server dist"
+  },
+  "author": "James Kolce <contact@jameskolce.com>",
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0",
+    "http-server": "^0.9.0",
+    "livereload": "^0.6.0",
+    "pug-cli": "github:pugjs/pug-cli#master",
+    "npm-run-all": "^4.1.2"
+  }
+}
