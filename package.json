@@ -5,12 +5,14 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "run-p pug:watch http livereload",
-    "build": "npm run pug",
-    "pug": "pug src/views --out dist/ --obj src/views/data.json --pretty",
-    "pug:watch": "pug src/views --out dist/ -w --obj src/views/data.json --pretty",
-    "livereload": "livereload dist/ -e 'js, html, css'",
-    "http": "http-server dist"
+    "start": "run-p pug:watch concise:watch http livereload",
+    "build": "npm run pug concise",
+    "pug": "pug src/views --out docs/ --obj src/views/data.json --pretty",
+    "pug:watch": "pug src/views --out docs/ -w --obj src/views/data.json --pretty",
+    "livereload": "livereload docs/ -e 'js, html, css'",
+    "http": "http-server docs",
+    "concise": "concise compile src/styles docs/css",
+    "concise:watch": "concise compile -w src/styles/main.ccss docs/css/main.css"
   },
   "author": "James Kolce <contact@jameskolce.com>",
   "devDependencies": {
@@ -18,6 +20,7 @@
     "http-server": "^0.9.0",
     "livereload": "^0.6.0",
     "pug-cli": "github:pugjs/pug-cli#master",
-    "npm-run-all": "^4.1.2"
+    "npm-run-all": "^4.1.2",
+    "@concisecss/cli": "^0.2.0"
   }
 }
